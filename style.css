@@ -291,7 +291,7 @@ a:hover {
     flex-direction: row;
     color: white;
     width: 40%;
-    margin: 2% 0  0 10%;
+    margin: 4% 0  0 10%;
 }
 
 #vision {
@@ -381,7 +381,7 @@ a:hover {
     }
 
     .serv, .serv_1, #s1 {
-        width: 30%;
+        width: 60%;
         min-width: auto;
         margin-bottom: 2rem;
     }
@@ -408,6 +408,11 @@ a:hover {
              margin-top: 5%;
     }
 
+    #services {
+        height: auto;
+        padding: 5rem 1rem;
+    }
+    
 
     #mv-conatiner {
         margin-top: 5%;
@@ -415,7 +420,7 @@ a:hover {
 
           #mv-conatiner p{
             width: 120%;
-            margin-top: 7px;
+            margin-top: 5px;
             font-size: 16px;
             gap: 2%;
         }
@@ -427,9 +432,19 @@ a:hover {
         #mission-statement, #vision-statement{
             font-size: 14px;
         }
+
+         .flex_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+       
+    
 }
 
-@media (max-width: 780px) {
+
+@media (max-width: 788px) {
 
     /* body {
         width: 60rem;
