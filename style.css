@@ -575,6 +575,10 @@ a:hover {
         width: 14rem;
         align-self: center;
     }
+
+    .mission-text{
+        margin-top: 0;
+    }
     
    
     #img1, #img2 {
@@ -608,7 +612,7 @@ a:hover {
     }
 
     .social-media-icons-wrapper {
-        margin: 2rem 0 0 3rem;
+        margin: 1.5rem 0 0 3rem;
         display: flex;
         justify-content: center;
         gap: 1rem;
