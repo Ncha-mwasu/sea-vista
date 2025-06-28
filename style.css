@@ -4,11 +4,12 @@
     font-family: 'Kanit', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     background-color: #d8dadf;
+    margin: 0;
+    padding: 0;
 }
 
 /* Nav Bar */
@@ -18,8 +19,15 @@ body {
      margin: 0;
      padding: 0;
      width: 100%;
-     position: fixed;
+     position: sticky;
+     top:  1rem;
      z-index: 1000;
+}
+
+#header{
+    position: sticky;
+    top: 0;   
+    z-index: 1;
 }
 
 li {
@@ -547,20 +555,25 @@ a:hover {
 
 @media (max-width: 480px) {
 
+    body {
+        width: 40rem;
+    }
 
     .herotitle {
-        font-size: 36px;
-        margin: 55% 0 2% 25%;
+        font-size: 60px;
+        margin: 35% 0 2% 10%;
     }
 
     .serv, #s1{
         width: 19rem;
     }
     
+
+
     #para1 {
-        font-size: 20px;
+        font-size: 27px;
         width: 19rem;
-        margin: 8% 12% 2% 5%;
+        margin: 8% 12% 2% 6%;
     }
     
     .tag {
@@ -572,15 +585,15 @@ a:hover {
     }
     
     .container2 {
-        font-size: 16px;
-        width: 25rem;
-        margin: 0 auto;
-        justify-content: center;
+        font-size: 18px;
+        width: 34rem;
+        margin: 5px 0 1rem 8%;
     }
 
-    #para3{
+    #para3 {
         margin-top: 4px;
-
+        font-size: 18px;
+        margin: 20 0 0 0;
     }
     
     #para-title {
@@ -595,5 +608,73 @@ a:hover {
         font-size: 1.2rem;
     }
 
-    .
+    
+        #mv-conatiner p{
+            width: 32rem;
+            margin-left: 6%;
+        }
+
+}
+
+@media (max-width: 380px) {
+
+    body {
+        width: 40rem;
+    }
+
+    .herotitle {
+        font-size: 60px;
+        margin: 14% 14% 2% 0%;
+    }
+
+    .serv, #s1{
+        width: 19rem;
+    }
+    
+
+
+    #para1 {
+        font-size: 27px;
+        width: 19rem;
+        margin: 8% 30% 2% 0%;
+    }
+    
+    .tag {
+        font-size: 28px;
+    }
+    
+    #title {
+        font-size: 28px;
+    }
+    
+    .container2 {
+        font-size: 18px;
+        width: 34rem;
+        margin: 5px 0 1rem 8%;
+    }
+
+    #para3 {
+        margin-top: 4px;
+        font-size: 18px;
+        margin: 20 0 0 0;
+    }
+    
+    #para-title {
+        font-size: 20px;
+    }
+    
+    .navbar {
+        padding: 0 1rem;
+    }
+    
+    .navbar .logo a {
+        font-size: 1.2rem;
+    }
+
+    
+        #mv-conatiner p{
+            width: 32rem;
+            margin-left: 6%;
+        }
+
 }
