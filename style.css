@@ -237,6 +237,9 @@ a:hover {
     text-align: center;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 
 .serv h3{
@@ -259,11 +262,27 @@ a:hover {
     stroke: #000;
     stroke-width: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 
 /* About Section */
 #about {
     height: 100vh;
+}
+
+.about-title, .about-text,  #img1, #img2, #para-title, #mission-statement, #vision-statement {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+   
+}
+
+.footer-container, .social-media-icons-wrapper, .copyright-wrapper {
+       animation: appear linear;
+       animation-timeline: view();
+       animation-range: entry 0;
 }
 
 .container2{
@@ -357,6 +376,21 @@ a:hover {
 
 #location p{
     color: black;
+}
+
+
+@keyframes appear{
+
+    from {
+        opacity: 0;
+        scale: 0.5;
+ 
+    }
+    to {
+        opacity: 1
+
+    }
+
 }
 
 @media (max-width: 1300px){
@@ -547,7 +581,7 @@ a:hover {
         height: auto;
         width: 60px;
         align-self: center;
-        margin-left: 6%;
+        margin-left: 7.5%;
     }
     
     /* Contact Section Mobile */
