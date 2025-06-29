@@ -479,7 +479,6 @@ a:hover {
         align-items: center;
         gap: 2rem;
     }
-    
        
     
 }
@@ -627,7 +626,7 @@ a:hover {
     }
 
     .social-media-icons-wrapper {
-        margin: 1.5rem 0 0 3rem;
+        margin: 1.5rem 0 0 0rem;
         display: flex;
         justify-content: center;
         gap: 1rem;
@@ -746,15 +745,16 @@ a:hover {
     }
 
     .social-media-icons-wrapper  a{
-        margin: 0rem 0 0 0%;
+        margin: 0rem 0 0 5%;
         display: flex;
         justify-content: center;
-        gap: 5%;
+        gap: 20%%;
         padding: 0;
 }
 
 .social-media-icons-wrapper {
     margin-left: 0;
+    width: 80%;
 }
 
 .vision-text, .mission-text{
@@ -826,11 +826,17 @@ a:hover {
         font-size: 1.1rem;
     }
 
+    .social-media-icons-wrapper{
+
+        width: 120%;
+    }
+
+
     .social-media-icons-wrapper  a{
         margin: 1.5rem 0 0 0%;
         display: flex;
         justify-content: center;
-        gap: 5%;
+        gap: 10%;
         padding: 0;
 }
 .face{
