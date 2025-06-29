@@ -641,10 +641,12 @@ a:hover {
     }
 
     #location img {
-        height: 21px;
+        height: 22.5px;
+        width: auto;
     }
 
     #img2 {
+        
         padding-left: 5px;
     }
     
@@ -652,6 +654,9 @@ a:hover {
         margin-top: 3rem;
         text-align: center;
         width: 100%;
+    }
+    #loc-img{
+        width: 25px;
     }
 }
 
