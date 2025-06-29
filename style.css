@@ -732,8 +732,9 @@ a:hover {
     }
 
     .about-text{
-        width: 90%; /* Changed to percentage */
+        width: 105%; /* Changed to percentage */
         align-self: center;
+        margin-top
     }
 
     #img1, #img2 {
@@ -813,7 +814,7 @@ a:hover {
     }
 
     .about-text{
-        width: 95%;
+        width: 100%;
         align-self: center;
     }
     
