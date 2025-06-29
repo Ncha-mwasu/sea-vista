@@ -671,26 +671,27 @@ a:hover {
 } */
 
 @media (max-width: 480px) {
-    
-     body {
+    /* Remove this line: */
+    /* body {
         width: 40rem;
-    }
+    } */
 
     .herotitle {
         font-size: 60px;
-        margin: 20% 24% 2% 8%;
+        margin: 35% 12% 2% 6%;
+        width: 70%; /* Adjusted margins to be percentage-based */
     }
 
     .serv, #s1{
-        width: 19rem;
+        width: 90%; /* Changed to percentage for better responsiveness */
+        max-width: 19rem;
     }
-    
-
 
     #para1 {
         font-size: 27px;
-        width: 19rem;
-        margin: 8% 35% 2% 6%;
+        width: 90%; /* Changed to percentage */
+        max-width: 19rem;
+        margin: 8% 5% 2% 5%; /* Adjusted margins */
     }
     
     .tag {
@@ -703,14 +704,15 @@ a:hover {
     
     .container2 {
         font-size: 18px;
-        width: 34rem;
-        margin: 5px 0 1rem 8%;
+        width: 90%; /* Changed to percentage */
+        max-width: 34rem;
+        margin: 5px 5% 1rem 5%; /* Adjusted margins */
     }
 
     #para3 {
         margin-top: 4px;
         font-size: 18px;
-        margin: 20 0 0 0;
+        margin: 20px 0 0 0; /* Fixed margin syntax */
     }
     
     #para-title {
@@ -726,7 +728,7 @@ a:hover {
     }
 
     .about-text{
-        width: 20rem;
+        width: 90%; /* Changed to percentage */
         align-self: center;
     }
 
@@ -734,68 +736,119 @@ a:hover {
         margin-left: 10%;
     }
 
+    .social-media-icons-wrapper {
+        margin: 1.5rem 0 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-self: centre;
+        gap: 0.5rem;
+    }
 }
 
-
 @media (max-width: 380px) {
-
-    body {
+    /* Remove this line: */
+    /* body {
         width: 40rem;
-    }
+    } */
 
-    .hero
     .herotitle {
-        font-size: 60px;
-        margin: 14% 14% 2% 0%;
+        font-size: 40px; /* Slightly smaller for very small screens */
+        margin: 45% 0% 2% 0%; /* Adjusted margins */
     }
 
     .serv, #s1{
-        width: 19rem;
+        width: 95%; /* Even more responsive */
+        max-width: 19rem;
     }
-    
-
 
     #para1 {
-        font-size: 27px;
-        width: 19rem;
-        margin: 8% 30% 2% 0%;
+        font-size: 24px; /* Slightly smaller */
+        width: 95%;
+        margin: 8% 2.5% 2% 2.5%;
     }
     
     .tag {
-        font-size: 28px;
+        font-size: 24px; /* Slightly smaller */
     }
     
     #title {
-        font-size: 28px;
+        font-size: 24px; /* Slightly smaller */
     }
     
     .container2 {
-        font-size: 18px;
-        width: 34rem;
-        margin: 5px 0 1rem 8%;
+        font-size: 16px; /* Slightly smaller */
+        width: 95%;
+        margin: 5px 2.5% 1rem 2.5%;
     }
 
     #para3 {
         margin-top: 4px;
-        font-size: 18px;
-        margin: 20 0 0 0;
+        font-size: 16px; /* Slightly smaller */
+        margin: 20px 0 0 0;
     }
     
     #para-title {
-        font-size: 20px;
+        font-size: 18px; /* Slightly smaller */
     }
     
     .navbar {
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
     .about-text{
+        width: 95%;
         align-self: center;
     }
     
     .navbar .logo a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 350px){
+    .herotitle {
+        font-size: 40px; /* Slightly smaller for very small screens */
+        margin: 55% 18% 2% 0%; /* Adjusted margins */
     }
 
+    .vision-text{
+        padding: 0;
+    }
+    
+    .social-media-icons-wrapper  a{
+        margin: 1.5rem 0 0 0%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        padding: 0;
+    }
+}
 
+@media (max-width: 290px){
+    .herotitle {
+        font-size: 35px; /* Slightly smaller for very small screens */
+        margin: 65% 18% 1% 0%; /* Adjusted margins */
+    }
+    #para1{
+        font-size: 18px;
+        margin-left: 8%;
+    }
+
+    .serv {
+        font-size: 14px;
+    }
+
+    .vision-text{
+        padding: 0;
+    }
+
+    #mission
+    
+    .social-media-icons-wrapper  a{
+        margin: 1.5rem 0 0 0%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        padding: 0;
+    }
 }
