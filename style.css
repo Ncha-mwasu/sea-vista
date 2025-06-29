@@ -579,7 +579,7 @@ a:hover {
     .mission-text, .vision-text {
         margin-left: 0%;
         margin-top: 1rem;
-        width: 14rem;
+        width: 40%;
         align-self: center;
     }
 
@@ -594,6 +594,10 @@ a:hover {
         align-self: center;
         margin-left: 7.5%;
     }
+
+    .vision-text{
+    padding: 0;
+}
     
     /* Contact Section Mobile */
     #contact {
@@ -736,13 +740,21 @@ a:hover {
         margin-left: 10%;
     }
 
-    .social-media-icons-wrapper {
-        margin: 1.5rem 0 0 1rem;
+    .social-media-icons-wrapper  a{
+        margin: 0rem 0 0 0%;
         display: flex;
         justify-content: center;
-        align-self: centre;
-        gap: 0.5rem;
-    }
+        gap: 5%;
+        padding: 0;
+}
+
+.social-media-icons-wrapper {
+    margin-left: 0;
+}
+
+.vision-text{
+    padding: 0;
+}
 }
 
 @media (max-width: 380px) {
@@ -753,7 +765,7 @@ a:hover {
 
     .herotitle {
         font-size: 40px; /* Slightly smaller for very small screens */
-        margin: 45% 0% 2% 0%; /* Adjusted margins */
+        margin: 45% 2% 2% 0%; /* Adjusted margins */
     }
 
     .serv, #s1{
@@ -764,7 +776,7 @@ a:hover {
     #para1 {
         font-size: 24px; /* Slightly smaller */
         width: 95%;
-        margin: 8% 2.5% 2% 2.5%;
+        margin: 8% 4% 2% 13%;
     }
     
     .tag {
@@ -803,6 +815,22 @@ a:hover {
     .navbar .logo a {
         font-size: 1.1rem;
     }
+
+    .social-media-icons-wrapper  a{
+        margin: 1.5rem 0 0 0%;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        padding: 0;
+}
+.face{
+    margin-left: 4%;
+}
+
+.vision-text{
+    padding: 0;
+    width:
+}
 }
 
 @media (max-width: 350px){
