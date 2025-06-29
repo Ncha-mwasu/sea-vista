@@ -737,7 +737,7 @@ a:hover {
     }
 
     #img1, #img2 {
-        margin-left: 10%;
+        margin-left: 8%;
     }
 
     .social-media-icons-wrapper  a{
@@ -752,8 +752,13 @@ a:hover {
     margin-left: 0;
 }
 
-.vision-text{
+.vision-text, .mission-text{
     padding: 0;
+    width: 80%;
+    margin-right: 4%;
+}
+#para-title{
+    margin-right: 9%;
 }
 }
 
@@ -827,10 +832,13 @@ a:hover {
     margin-left: 4%;
 }
 
-.vision-text{
+.vision-text, .mission-text{
     padding: 0;
-    width:
+    width: 80%;
 }
+}
+
+
 }
 
 @media (max-width: 350px){
