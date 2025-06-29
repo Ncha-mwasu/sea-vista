@@ -827,22 +827,34 @@ a:hover {
 @media (max-width: 290px){
     .herotitle {
         font-size: 35px; /* Slightly smaller for very small screens */
-        margin: 65% 18% 1% 0%; /* Adjusted margins */
+        margin: 185% 15% 1% 6%; /* Adjusted margins */
     }
     #para1{
-        font-size: 18px;
-        margin-left: 8%;
+        font-size: 16px;
+        margin-left: 6%;
+        width: 80%;
     }
 
-    .serv {
-        font-size: 14px;
+    .serv, #s1 {
+        font-size: 14px !important;
     }
 
     .vision-text{
         padding: 0;
     }
 
-    #mission
+    #mission-statement, #para3, #vision-statement{
+        font-size: 14px !important;
+    }
+
+    #mission-statement, #vision-statement{
+        margin-left: 12%;
+        width:90% !important
+    }
+
+    #para-title{
+        margin-right: 30%; !important
+    }
     
     .social-media-icons-wrapper  a{
         margin: 1.5rem 0 0 0%;
@@ -850,5 +862,10 @@ a:hover {
         justify-content: center;
         gap: 5%;
         padding: 0;
+    }
+
+    .navbar{
+        margin: 0;
+        padding: 5%;
     }
 }
