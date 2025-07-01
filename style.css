@@ -1,8 +1,4 @@
 /* Body */
-
-
-
-
 * {
     font-family: 'Kanit', sans-serif;
     margin: 0;
@@ -386,6 +382,8 @@ a:hover {
 }
 
 
+
+/*scrolling effect*/
 @keyframes appear{
 
     from {
@@ -402,6 +400,8 @@ a:hover {
 
 @media (max-width: 1300px){
 
+    /* about section @ 1300px to 993px*/
+
     .serv, .serv_1, #s1 {
         width: 30%;
         min-width: auto;
@@ -413,6 +413,7 @@ a:hover {
 
 
 @media (max-width: 992px) {
+    /*Large Tablet and half desktop view size 992px-788px */
     .navbar .nav ul {
         display: none;
     }
@@ -486,10 +487,9 @@ a:hover {
 
 @media (max-width: 788px) {
 
-    /* body {
-        width: 60rem;
-    } */
+/*Medium Tablet view size 788px-481px */
 
+    /* Hero Section */
     .container_1 {
         padding: 2% 2% 0 0;
 
@@ -526,7 +526,7 @@ a:hover {
         display: inline-block;
     }
     
-    
+    /* Services Section */ 
     #services {
         height: auto;
         padding: 5rem 1rem;
@@ -602,14 +602,13 @@ a:hover {
     padding: 0;
 }
     
-    /* Contact Section Mobile */
+    /* Contact Section Tablet */
     #contact {
         flex-direction: column;
         height: auto;
         padding: 2rem 1rem;
         align-items: center;
         text-align: center;
-        /* width: 55em; */
     }
     
     .footer-container {
@@ -622,9 +621,9 @@ a:hover {
         display: contents;
         text-align: center;
         justify-content: center;
-        align
     }
 
+    /* Social Media Icons */
     .social-media-icons-wrapper {
         margin: 1.5rem 0 0 0rem;
         display: flex;
@@ -667,38 +666,28 @@ a:hover {
     }
 }
 
-/* @media screen and (max-width: 625px) {
 
-    .mission-text, .vision-text {
-        margin-left: 0;
-        margin-top: 1rem;
-        width: 20rem;
-    }
-    
-} */
 
 @media (max-width: 480px) {
-    /* Remove this line: */
-    /* body {
-        width: 40rem;
-    } */
 
+    /*Tablet view size 480px-381px*/
+    
     .herotitle {
         font-size: 60px;
         margin: 35% 12% 2% 6%;
-        width: 70%; /* Adjusted margins to be percentage-based */
+        width: 70%; 
     }
 
     .serv, #s1{
-        width: 90%; /* Changed to percentage for better responsiveness */
+        width: 90%; 
         max-width: 19rem;
     }
 
     #para1 {
         font-size: 27px;
-        width: 90%; /* Changed to percentage */
+        width: 90%; 
         max-width: 19rem;
-        margin: 8% 5% 2% 5%; /* Adjusted margins */
+        margin: 8% 5% 2% 5%; 
     }
     
     .tag {
@@ -711,15 +700,15 @@ a:hover {
     
     .container2 {
         font-size: 18px;
-        width: 90%; /* Changed to percentage */
+        width: 90%; 
         max-width: 34rem;
-        margin: 5px 5% 1rem 5%; /* Adjusted margins */
+        margin: 5px 5% 1rem 5%; 
     }
 
     #para3 {
         margin-top: 4px;
         font-size: 18px;
-        margin: 20px 0 0 0; /* Fixed margin syntax */
+        margin: 20px 0 0 0; 
     }
     
     #para-title {
@@ -735,9 +724,8 @@ a:hover {
     }
 
     .about-text{
-        width: 105%; /* Changed to percentage */
+        width: 105%; 
         align-self: center;
-        margin-top
     }
 
     #img1, #img2 {
@@ -748,7 +736,7 @@ a:hover {
         margin: 0rem 0 0 5%;
         display: flex;
         justify-content: center;
-        gap: 20%%;
+        gap: 20%;
         padding: 0;
 }
 
@@ -764,53 +752,51 @@ a:hover {
 }
 #para-title{
     margin-right: 9%;
-}
+    }
 }
 
 @media (max-width: 380px) {
-    /* Remove this line: */
-    /* body {
-        width: 40rem;
-    } */
 
+/*mobile view size 380px-351px*/
+    /*hero section*/
     .herotitle {
-        font-size: 40px; /* Slightly smaller for very small screens */
-        margin: 45% 2% 2% 0%; /* Adjusted margins */
+        font-size: 40px; 
+        margin: 45% 2% 2% 0%; 
     }
 
     .serv, #s1{
-        width: 95%; /* Even more responsive */
+        width: 95%; 
         max-width: 19rem;
     }
 
     #para1 {
-        font-size: 24px; /* Slightly smaller */
+        font-size: 24px; 
         width: 95%;
         margin: 8% 4% 2% 13%;
     }
     
     .tag {
-        font-size: 24px; /* Slightly smaller */
+        font-size: 24px; 
     }
     
     #title {
-        font-size: 24px; /* Slightly smaller */
+        font-size: 24px; 
     }
     
     .container2 {
-        font-size: 16px; /* Slightly smaller */
+        font-size: 16px; 
         width: 95%;
         margin: 5px 2.5% 1rem 2.5%;
     }
 
     #para3 {
         margin-top: 4px;
-        font-size: 16px; /* Slightly smaller */
+        font-size: 16px;
         margin: 20px 0 0 0;
     }
     
     #para-title {
-        font-size: 18px; /* Slightly smaller */
+        font-size: 18px; 
     }
     
     .navbar {
@@ -828,7 +814,7 @@ a:hover {
 
     .social-media-icons-wrapper{
 
-        width: 120%;
+        width: 100%;
     }
 
 
@@ -850,18 +836,22 @@ a:hover {
 }
 
 
-}
-
 @media (max-width: 350px){
+/*mobile view size 350px-291px*/
+
+    /*hero section*/
     .herotitle {
-        font-size: 40px; /* Slightly smaller for very small screens */
-        margin: 55% 18% 2% 0%; /* Adjusted margins */
+        font-size: 40px; 
+        margin: 55% 18% 2% 0%;
     }
 
+    /*services section*/
     .vision-text{
         padding: 0;
     }
     
+    
+    /*contact section*/
     .social-media-icons-wrapper  a{
         margin: 1.5rem 0 0 0%;
         display: flex;
@@ -872,9 +862,11 @@ a:hover {
 }
 
 @media (max-width: 290px){
+
+    /*hero section*/
     .herotitle {
-        font-size: 35px; /* Slightly smaller for very small screens */
-        margin: 185% 15% 1% 6%; /* Adjusted margins */
+        font-size: 35px; 
+        margin: 185% 15% 1% 6%; 
     }
     #para1{
         font-size: 16px;
@@ -882,6 +874,7 @@ a:hover {
         width: 80%;
     }
 
+    /*services section*/
     .serv, #s1 {
         font-size: 14px !important;
     }
@@ -900,9 +893,10 @@ a:hover {
     }
 
     #para-title{
-        margin-right: 30%; !important
+        margin-right: 30%;
     }
     
+    /*contact section*/
     .social-media-icons-wrapper  a{
         margin: 1.5rem 0 0 0%;
         display: flex;
@@ -910,7 +904,7 @@ a:hover {
         gap: 5%;
         padding: 0;
     }
-
+    /*navbar section*/
     .navbar{
         margin: 0;
         padding: 5%;
